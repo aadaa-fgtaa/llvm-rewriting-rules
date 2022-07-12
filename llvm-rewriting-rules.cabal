@@ -1,0 +1,118 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.34.4.
+--
+-- see: https://github.com/sol/hpack
+
+name:           llvm-rewriting-rules
+version:        0.0.0.0
+description:    Please see the README on Github at <https://github.com/aadaa-fgtaa/llvm-rewriting-rules#readme>
+homepage:       https://github.com/aadaa-fgtaa/llvm-rewriting-rules#readme
+bug-reports:    https://github.com/aadaa-fgtaa/llvm-rewriting-rules/issues
+author:         aadaa_fgtaa
+maintainer:     aadaa_fgtaa@pm.me
+copyright:      2022 aadaa_fgtaa
+license:        BSD3
+license-file:   LICENSE
+build-type:     Simple
+extra-source-files:
+    README.md
+    LICENSE
+
+source-repository head
+  type: git
+  location: https://github.com/aadaa-fgtaa/llvm-rewriting-rules
+
+library
+  exposed-modules:
+      LLVM.Rules.Plugin
+      LLVM.Rules.Rule
+      Plugin
+  other-modules:
+      Paths_llvm_rewriting_rules
+  hs-source-dirs:
+      src
+  default-extensions:
+      BangPatterns
+      BinaryLiterals
+      BlockArguments
+      CApiFFI
+      ConstrainedClassMethods
+      ConstraintKinds
+      DataKinds
+      DefaultSignatures
+      DeriveAnyClass
+      DeriveDataTypeable
+      DeriveFoldable
+      DeriveFunctor
+      DeriveGeneric
+      DeriveLift
+      DeriveTraversable
+      DerivingStrategies
+      DerivingVia
+      DisambiguateRecordFields
+      DuplicateRecordFields
+      EmptyCase
+      EmptyDataDecls
+      EmptyDataDeriving
+      ExistentialQuantification
+      ExplicitForAll
+      ExplicitNamespaces
+      FlexibleContexts
+      FlexibleInstances
+      FunctionalDependencies
+      GADTSyntax
+      GADTs
+      GeneralizedNewtypeDeriving
+      HexFloatLiterals
+      ImplicitParams
+      ImportQualifiedPost
+      InstanceSigs
+      KindSignatures
+      LambdaCase
+      LexicalNegation
+      LiberalTypeSynonyms
+      LinearTypes
+      MonadComprehensions
+      MultiParamTypeClasses
+      MultiWayIf
+      NamedFieldPuns
+      NamedWildCards
+      NoImplicitPrelude
+      NoMonomorphismRestriction
+      NumDecimals
+      NumericUnderscores
+      OverloadedLabels
+      OverloadedLists
+      OverloadedStrings
+      PackageImports
+      ParallelListComp
+      PartialTypeSignatures
+      PatternSynonyms
+      PolyKinds
+      PostfixOperators
+      QualifiedDo
+      QuantifiedConstraints
+      RankNTypes
+      RecordWildCards
+      RecursiveDo
+      RoleAnnotations
+      ScopedTypeVariables
+      StandaloneDeriving
+      StandaloneKindSignatures
+      TupleSections
+      TypeApplications
+      TypeFamilies
+      TypeFamilyDependencies
+      TypeOperators
+      TypeSynonymInstances
+      UnliftedNewtypes
+      ViewPatterns
+  ghc-options: -Wall -Widentities -Wpartial-fields -Wunused-packages -Wunused-type-patterns -Wredundant-constraints -Wincomplete-uni-patterns -Wmonomorphism-restriction -Wincomplete-record-updates -Wmissing-exported-signatures -Wmissing-deriving-strategies -Werror=tabs -Werror=missing-fields -Werror=missing-methods -Werror=incomplete-patterns -Werror=incomplete-uni-patterns -Werror=incomplete-record-updates
+  build-depends:
+      base >=4.12 && <5
+    , inline-c
+    , inline-c-cpp
+    , relude
+    , vector
+  default-language: Haskell2010

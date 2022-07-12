@@ -1,0 +1,7 @@
+resolver: lts-19.15
+
+packages:
+- .
+
+nix:
+  packages: [llvm_14 perl]

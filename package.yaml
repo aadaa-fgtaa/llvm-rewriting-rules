@@ -1,0 +1,119 @@
+name:                llvm-rewriting-rules
+version:             0.0.0.0
+author:              aadaa_fgtaa
+github:              aadaa-fgtaa/llvm-rewriting-rules
+license:             BSD3
+copyright:           2022 aadaa_fgtaa
+maintainer:          aadaa_fgtaa@pm.me
+
+extra-source-files:
+- README.md
+- LICENSE
+
+description:         Please see the README on Github at <https://github.com/aadaa-fgtaa/llvm-rewriting-rules#readme>
+
+dependencies:
+- base >= 4.12 && < 5
+- relude
+- inline-c
+- inline-c-cpp
+- vector
+
+ghc-options:
+- -Wall
+- -Widentities
+- -Wpartial-fields
+- -Wunused-packages
+- -Wunused-type-patterns
+- -Wredundant-constraints
+- -Wincomplete-uni-patterns
+- -Wmonomorphism-restriction
+- -Wincomplete-record-updates
+- -Wmissing-exported-signatures
+- -Wmissing-deriving-strategies
+- -Werror=tabs
+- -Werror=missing-fields
+- -Werror=missing-methods
+- -Werror=incomplete-patterns
+- -Werror=incomplete-uni-patterns
+- -Werror=incomplete-record-updates
+
+library:
+  source-dirs: src
+
+default-extensions:
+- BangPatterns
+- BinaryLiterals
+- BlockArguments
+- CApiFFI
+- ConstrainedClassMethods
+- ConstraintKinds
+- DataKinds
+- DefaultSignatures
+- DeriveAnyClass
+- DeriveDataTypeable
+- DeriveFoldable
+- DeriveFunctor
+- DeriveGeneric
+- DeriveLift
+- DeriveTraversable
+- DerivingStrategies
+- DerivingVia
+- DisambiguateRecordFields
+- DuplicateRecordFields
+- EmptyCase
+- EmptyDataDecls
+- EmptyDataDeriving
+- ExistentialQuantification
+- ExplicitForAll
+- ExplicitNamespaces
+- FlexibleContexts
+- FlexibleInstances
+- FunctionalDependencies
+- GADTSyntax
+- GADTs
+- GeneralizedNewtypeDeriving
+- HexFloatLiterals
+- ImplicitParams
+- ImportQualifiedPost
+- InstanceSigs
+- KindSignatures
+- LambdaCase
+- LexicalNegation
+- LiberalTypeSynonyms
+- LinearTypes
+- MonadComprehensions
+- MultiParamTypeClasses
+- MultiWayIf
+- NamedFieldPuns
+- NamedWildCards
+- NoImplicitPrelude
+- NoMonomorphismRestriction
+- NumDecimals
+- NumericUnderscores
+- OverloadedLabels
+- OverloadedLists
+- OverloadedStrings
+- PackageImports
+- ParallelListComp
+- PartialTypeSignatures
+- PatternSynonyms
+- PolyKinds
+- PostfixOperators
+- QualifiedDo
+- QuantifiedConstraints
+- RankNTypes
+- RecordWildCards
+- RecursiveDo
+- RoleAnnotations
+- ScopedTypeVariables
+- StandaloneDeriving
+- StandaloneKindSignatures
+- TupleSections
+- TypeApplications
+- TypeFamilies
+- TypeFamilyDependencies
+- TypeOperators
+- TypeSynonymInstances
+- UnliftedNewtypes
+- ViewPatterns
